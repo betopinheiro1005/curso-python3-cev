@@ -1,0 +1,24 @@
+    
+    - recomendado aspas simples
+    - True e False sempre com a primeira letra em maiúscula para usar como valor booleano
+    - Concatenação: juntar uma string na outra
+    - {} máscara
+    
+    Tipos Primitivos
+    
+        int     7 -4 0 9875
+        float   4.5 0.076 -15.223 7.0
+        bool    True False
+        str     'Olá' '7.5' ''
+    
+    
+    Forma de uso:
+    
+        - int
+            exemplo: n1 = int(input('Digite um número: '))
+            
+    Forma diferente de usar o print:
+        
+        print('A soma vale' , $ )
+        print('A soma vale {}' .format (s))
+            

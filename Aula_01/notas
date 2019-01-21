@@ -1,0 +1,26 @@
+- Pode-se utilizar ""  '' 
+- Todos os comandos são funções, todas as funções tem ()
+- print: para mostrar algo na tela
+- Números não estão entre aspas
+    Ex: print('Olá, Mundo!')
+        Olá, Mundo!
+        
+        print(7+4)
+        11
+        
+        print('7'+'4')
+        74
+        
+- Na versão 3 pode usar acentuação, na 2 não;
+- Horas que usa-se , e horas que usa-se +
+- Não estando entre aspas, usa-se sempre letras minúsculas
+- Toda variável é um objeto pro Python, pode receber valores
+- = é lido como RECEBE
+- Variáveis são espaços na memória onde pode-se guardar coisas;
+- print -> escreva
+- input -> leia
+- No teste que fiz, usando '', a mensagem não mostrou a vírgula, mas com "", deu certo:
+    ('Olá, ' , nome , '!')
+    Olá João!
+    ("Olá, " , nome , "!")
+    Olá, João!

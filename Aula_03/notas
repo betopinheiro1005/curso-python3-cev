@@ -1,0 +1,48 @@
+    OPERADORES ARITMÉTICOS
+    
+        +   adição
+        -   subtração
+        *   multiplicação
+        /   divisão
+        **  potência
+        //  divisão inteira
+        %   módulo(resto da divisão)
+        
+        apenas números ou variáveis que contém números são aceitos
+        funcionam como operadores binários(precisa de dois operandos)
+        == é para igualdade
+        
+        ex: 5 + 2 == 7
+            5 - 2 == 3
+            5 * 2 == 10
+            5 / 2 == 2.5
+            5 ** 2 == 25
+            5 // 2 == 2
+            5 % 2 == 1
+            
+        Ordem de Precedência
+            
+            1.  ()
+            2.  **
+            3.  *   /   //  % -> se tiver mais de um na expressão, resolve o que aparecer primeiro
+            4.  +   - 
+            
+            No Python não se usa colchetes e chaves como na matemática, apenas parênteses.
+        
+        Ex: 5 + 3 * 2 -> 5 + (3 * 2) -> 5 + 6 == 11
+            3 * 5 + 4 ** 2 -> 3 * 5 + (4 ** 2) -> (3 * 5) + 16 -> 15 + 16 == 31
+            3 * (5 + 4) ** 2 -> 3 * (9 ** 2) -> 3 * 81 == 243
+        
+        No caso do Python, o limite de números(casas) é o limite da memória
+        
+        Alguns operadores aritméticos podem ser usados com string, porém ai ele não é mais um operador aritmético.
+            ex: 'Oi' + 'Olá'
+                'OiOlá'
+                
+                'Oi'*5
+                'OiOiOiOiOi'
+                
+                print('='*10)
+                '=========='
+        
+        print no python 2 não tem (), no 3 tem porque ele se tornou uma função interna

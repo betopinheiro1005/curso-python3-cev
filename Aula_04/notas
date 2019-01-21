@@ -1,0 +1,25 @@
+    MÓDULOS
+        
+        - Python trabalha a partir de pacotes(módulos), ele vem com os básicos
+        - ex: import bebida, import modulo. Import bebida importa todas as bebidas.
+        - Para fazer importação de apenas uma bebida/doce:
+            ex: From doce import pudim
+        - ex de uma biblioteca padrão:
+            math -> biblioteca de matemática
+                ceil -> funcionalidade que arredonda pra cima
+                floor -> funcionalidade que arredonda pra baixo
+                trunc -> funcionalidade que elimina números depois da vírgula
+                pow -> funcionalidade de potência, semelhante aos **
+                sqrt -> funcionalidade que calcula a raiz quadrada
+                factorial -> funcionalidade para calculo de fatorial
+                
+                import math -> importa tudo
+                From math import pow -> importa somente o pow
+                From math importa pow, sqrt -> importa as duas
+                
+    python.org  > documentação  > Library   > tópico 9 << os módulos
+    no pycharm> random ctrl + espaço para ver as bibliotecas
+    no site python.org PyPi mostra os pacotes que podem ser importados, as bibliotecas criadas e disponibilizadas
+    importar biblioteca no pycharm
+        ex: import emoji, clica em cima e instala
+                
